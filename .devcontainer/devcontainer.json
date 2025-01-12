@@ -1,0 +1,18 @@
+{
+    // ...existing code...
+    "remoteUser": "dockcul",
+    "remoteAdminUser": "doditz",
+    "settings": {
+        // ...existing settings...
+    },
+    "extensions": [
+        // ...existing extensions...
+    ],
+    "postCreateCommand": "ssh -F /workspaces/OBS/ssh_config my-remote-host",
+    "runArgs": [
+        "--network", "192.168.0.1/22",
+        "--network", "10.0.0.1/22",
+        "--publish", "8000-13000:8000-13000"
+    ]
+    // ...existing code...
+}

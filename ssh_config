@@ -1,0 +1,4 @@
+Host my-remote-host
+    User doditz
+    HostName 192.168.1.100
+    IdentityFile ~/.ssh/id_rsa
